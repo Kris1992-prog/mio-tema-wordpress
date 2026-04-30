@@ -1,0 +1,15 @@
+/*
+Theme Name: Mio Tema 3
+Author: Kris
+Description: Secondo tema creato da me
+Version: 1.0
+*/
+
+body {
+    background: rgb(255, 128, 0);
+    font-family: serif;
+}
+
+h1 {
+    color: red;
+}
