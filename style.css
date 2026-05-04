@@ -13,3 +13,5 @@ body {
 h1 {
     color: purple;
 }
+
+echo   "/* Test git */" >> style.css 
