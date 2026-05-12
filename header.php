@@ -7,9 +7,8 @@
 </head>
 
 <body <?php body_class(); ?>>
-    <p style="background: yellow;
-text-align: center; margin: 0; padding: 10px;">
-Benvenuti nel mio laboratorio Wordpress!</p>
+    <p 
+class="barra-benvenuto">Benvenuti nel mio laboratorio WordPress!</p>
 <header style="background: orange; color: white; padding: 20px;">
     <h2>HEADER DI KRIS</h2>
 </header>
