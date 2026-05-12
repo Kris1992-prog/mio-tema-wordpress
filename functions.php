@@ -1,7 +1,7 @@
 <?php
 
 function mio_tema_scripts() {
-    wp_enqueue_style('kris-style', get_template_directory_uri() . '/assets/css/style.css');
+    wp_enqueue_style('kris-style', get_stylesheet_uri());
 }
 
 add_action('wp_enqueue_scripts', 'mio_tema_scripts');
