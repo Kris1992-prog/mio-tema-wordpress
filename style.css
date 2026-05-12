@@ -5,22 +5,33 @@ Description: Secondo tema creato da me
 Version: 1.0
 */
 
+/* --- STILE GENERALE --- */
 body {
-    background: rgb(255, 128, 0);
-    font-family: serif;
+    background-color: #f0f0f0; 
+    color: #333; 
+    font-family: sans-serif;
 }
 
 h1 {
     color: purple;
 }
 
+/* --- COMPONENTI PERSONALIZZATI --- */
+.barra-benvenuto {
+    background-color: yellow !important;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+}
 
-echo   "/* Test git */" >> style.css 
-
-/*Questo è un test nel branch*/
-
-body {
-    background-color: #f0f0f0; /* Un grigio chiaro */
-    color: #333; /* Testo grigio scuro */
-    font-family: sans-serif;
+.footer-custom {
+    background-color: #333 !important; /* Grigio molto scuro quasi nero */
+    color: white !important;           /* Testo bianco */
+    text-align: center;
+    padding: 30px;
+    margin-top: 50px;
+    border-top: 3px solid orange;      /* Un richiamo all'header arancione */
 }

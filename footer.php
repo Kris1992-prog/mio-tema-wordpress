@@ -1,4 +1,4 @@
-<footer style="background: gray; padding: 20px;">
+<footer class="footer-custom">
     <p>Questo è il mio footer personalizzato</p>
 </footer>
 
