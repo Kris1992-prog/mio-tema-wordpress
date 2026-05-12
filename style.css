@@ -18,3 +18,9 @@ h1 {
 echo   "/* Test git */" >> style.css 
 
 /*Questo è un test nel branch*/
+
+body {
+    background-color: #f0f0f0; /* Un grigio chiaro */
+    color: #333; /* Testo grigio scuro */
+    font-family: sans-serif;
+}
