@@ -7,10 +7,20 @@
 </head>
 
 <body <?php body_class(); ?>>
-    <p 
-class="barra-benvenuto">Benvenuti nel mio laboratorio WordPress!</p>
-<header style="background: orange; color: white; padding: 20px;">
-    <h2>HEADER DI KRIS</h2>
+   
+<header class="header-principale">
+    <h1><?php bloginfo('name'); ?></h1>
+    <p class="descrizione-sito"><?php bloginfo('description'); ?></p>
+    
+    <div class="barra-condizionale">
+        <?php if ( is_home() ) : ?>
+            <p>Benvenuto nella Home Page del mio Laboratorio!</p>
+        <?php elseif ( is_page() ) : ?>
+            <p>Ti trovi nella pagina: <? { the_title(); } ?></p>
+        <?php else : ?>
+            <p>Stai leggendo un articolo del blog</p>
+        <?php endif; ?>
+    </div>
 </header>
 
 <nav>
