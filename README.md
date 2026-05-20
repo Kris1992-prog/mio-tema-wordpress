@@ -1,12 +1,28 @@
 # Mio Tema WordPress Custom
-Questo è un tema WordPress creato da zero per imparare lo sviluppo web e la gestione Cloud.
 
-##  Tecnologie utilizzate
-* **Linux:** Server Ubuntu
-* **Web Server:** Nginx/Apache
-* **Database:** MySQL
-* **Versionamento:** Git & GitHub
+Tema WordPress personalizzato creato da zero come progetto pratico per apprendere sviluppo web, gestione server Linux e workflow Git/GitHub.
 
-## Installazione
-1. Scarica la cartella in `wp-content/themes/`.
-2. Attiva il tema dal pannello di amministrazione di WordPress.
+## 🚀 Tecnologie utilizzate
+
+- Linux Ubuntu
+- Nginx
+- PHP
+- MySQL
+- WordPress
+- Git & GitHub
+
+## ⚙️ Funzionalità implementate
+
+- Tema WordPress custom
+- Header e footer personalizzati
+- Menu dinamico WordPress
+- Gestione CSS tramite functions.php
+- Struttura assets separata
+- Workflow Git con commit, branch e merge
+
+## 📂 Installazione
+
+1. Copiare la cartella del tema dentro:
+
+```bash
+wp-content/themes/
