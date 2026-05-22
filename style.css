@@ -35,3 +35,44 @@ h1 {
     margin-top: 50px;
     border-top: 3px solid orange;      /* Un richiamo all'header arancione */
 }
+
+/* --- LAYOUT A COLONNE (FLEXBOX) --- */
+
+/* La scatola grande che contiene sia gli articoli che la sidebar */
+.struttura-sito {
+    display: flex;         /* Attiva la modalità affiancata (Flexbox) */
+    gap: 20px;             /* Spazio di separazione tra le due colonne */
+    max-width: 1200px;     /* Larghezza massima del sito su schermi grandi */
+    margin: 0 auto;        /* Centra tutto lo schermo in mezzo alla pagina */
+    padding: 20px;         /* Spazio interno di sicurezza ai lati */
+}
+
+/* La colonna di sinistra (dove ci sono gli articoli del blog) */
+.contenuto-principale {
+    flex: 3;               /* Prende 3 fette di spazio (circa il 75%) */
+}
+
+/* La colonna di destra (la nostra sidebar) */
+.sidebar-area {
+    flex: 1;               /* Prende 1 fetta di spazio (circa il 25%) */
+    background-color: #ffffff; /* Sfondo bianco per far risaltare i widget */
+    padding: 20px;         /* Spazio interno per non appiccicare i testi al bordo */
+    border-left: 2px solid #ddd; /* Linea verticale grigia di separazione */
+    border-radius: 5px;    /* Arrotonda leggermente gli angoli dello sfondo */
+}
+
+/* Stile per i singoli blocchetti (Widget) dentro la sidebar */
+.widget-box {
+    margin-bottom: 25px;   /* Distanza tra un widget e quello sotto */
+    padding-bottom: 15px;  /* Spazio prima della linea tratteggiata */
+    border-bottom: 1px dashed #ccc; /* Linea tratteggiata grigia tra i widget */
+}
+
+/* Stile per i titoli dei Widget */
+.widget-title {
+    color: purple;         /* Riprendiamo il viola che hai usato per gli h1 */
+    margin-top: 0;
+    font-size: 1.2rem;
+    border-bottom: 2px solid purple; /* Sottolineatura viola sotto il titolo del widget */
+    padding-bottom: 5px;
+}

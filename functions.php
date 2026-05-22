@@ -13,3 +13,15 @@ function registra_menu() {
 }
 
 add_action('after_setup_theme', 'registra_menu');
+
+function mio_tema_registra_sidebar() {
+    register_sidebar( array(
+        'name'          => 'Sidebar Principale',
+        'id'            => 'sidebar-principale',
+        'before_widget' => '<div class="widget-box">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h3 class="widget-title">',
+        'after_title'   => '</h3>',
+    ) );
+}
+add_action( 'widgets_init', 'mio_tema_registra_sidebar' );
